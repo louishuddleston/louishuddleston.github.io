@@ -1,1 +1,124 @@
-<h1>Louis</h1>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NSC0FJER4S"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-NSC0FJER4S');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Louis Huddleston - Web Developer</title>
+    <meta name="theme-color" content="#0066FF" />
+    <meta
+      name="description"
+      content="Louis Huddleston is a full-stack web developer specialising in bringing your MVPs to life."
+    />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="inner-container nav-bar-inner">
+        <span class="lh-logo" scroll-to="top">LH.</span>
+        <nav>
+          <a scroll-to=".portfolio-container">Portfolio</a>
+          <span class="nav-divider">|</span>
+          <a scroll-to=".contact-container">Contact</a>
+        </nav>
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="inner-container title-and-btn">
+        <div class="title">
+          <h1>
+            Louis <br />
+            Huddleston
+          </h1>
+          <h2>Full-Stack Web Developer</h2>
+        </div>
+        <div class="btn-container">
+          <button class="cta-btn" scroll-to=".contact-container">
+            Contact Me
+          </button>
+        </div>
+      </div>
+      <div class="bottom-container">
+        <div class="portfolio-container">
+          <h3>Portfolio</h3>
+          <div class="portfolio-item">
+            <a
+              class="portfolio-title-link"
+              href="https://github.com/profullstack/upvotocracy-ui-ssr"
+              target="_blank"
+              >Upvotocracy</a
+            >
+            <div class="tech-icon-container">
+              <span class="tech-icon">Svelte</span>
+              <span class="tech-icon">NodeJS</span>
+            </div>
+            <p class="portfolio-description">
+              I worked on both the front-end and API for Upvotocracy: an
+              open-source Reddit clone.
+            </p>
+          </div>
+          <div class="portfolio-item">
+            <a
+              class="portfolio-title-link"
+              href="https://github.com/louishuddleston/drinking-games-bot"
+              target="_blank"
+              >Drinking Games Bot</a
+            >
+            <div class="tech-icon-container">
+              <span class="tech-icon">Discord.js</span>
+              <span class="tech-icon">NodeJS</span>
+              <span class="tech-icon">Redis</span>
+            </div>
+            <p class="portfolio-description">
+              During the lockdown, I decided to create a bot for playing your
+              favourite drinking games with your friends on Discord. It has now
+              been added to over 400 servers!
+            </p>
+          </div>
+          <div class="portfolio-item">
+            <a
+              class="portfolio-title-link"
+              href="https://lightning-faucet.com"
+              target="_blank"
+              >Lightning Faucet</a
+            >
+            <div class="tech-icon-container">
+              <span class="tech-icon">Bitcoin</span>
+              <span class="tech-icon">NodeJS</span>
+              <span class="tech-icon">Websockets</span>
+              <span class="tech-icon">Jquery</span>
+            </div>
+            <p class="portfolio-description">
+              I created Lightning Faucet so that people would have a simple way
+              to learn how to use their Bitcoin Lightning wallets. It quickly
+              became popular as interest in the Lightning Network grew.
+            </p>
+          </div>
+        </div>
+        <div class="contact-container">
+          <h3>Contact Me</h3>
+          <div class="contact-button-container">
+            <a href="https://t.me/louislightning" target="_blank"
+              ><button>Telegram</button></a
+            >
+            <a id="email-link"><button>Email</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
