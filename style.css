@@ -141,6 +141,7 @@ a:hover {
 }
 .tech-icon {
   display: inline-block;
+  margin-top: 5px;
   border: 1px solid var(--dark-blue);
   border-radius: 24px;
   font-size: 14px;
@@ -172,13 +173,16 @@ a:hover {
   text-decoration: none;
 }
 .tech-icon-container {
-  margin: 11px 0;
+  margin: 5px 0;
 }
 .contact-button-container {
   text-align: center;
 }
 .contact-button-container button {
   margin: 5px;
+}
+.cta-btn {
+  margin-left: 10px;
 }
 @media screen and (max-width: 1250px) {
   .inner-container {
