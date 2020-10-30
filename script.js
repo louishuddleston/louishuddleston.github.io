@@ -19,3 +19,16 @@ emailLink.onmouseover = emailLink.ontouchstart = () =>
     'href',
     `mailto:${atob('bG91aXNAbG91aXNodWRkbGVzdG9uLmNvbQ==')}`
   );
+
+const logo = document.querySelector('.lh-logo');
+let scrolling;
+logo.addEventListener('click', () => {
+  if (!scrolling) {
+    scrolling = true;
+    logo.classList.add('twist-up');
+    setTimeout(() => {
+      logo.classList.remove('twist-up');
+      scrolling = false;
+    }, 500);
+  }
+});

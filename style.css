@@ -184,6 +184,21 @@ a:hover {
 .cta-btn {
   margin-left: 10px;
 }
+.twist-up {
+  animation-name: twist-up;
+  animation-duration: .5s;
+}
+@keyframes twist-up {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 @media screen and (max-width: 1250px) {
   .inner-container {
     margin-left: 5vw;
