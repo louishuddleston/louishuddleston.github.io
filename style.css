@@ -103,12 +103,6 @@ a:hover {
   padding: 2em;
   /* transform: translateZ(1px) scale(0.9); */
 }
-.parallax {
-  /* perspective: 7px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto; */
-}
 .title-and-btn {
   display: flex;
   justify-content: space-between;
@@ -123,21 +117,21 @@ a:hover {
   justify-content: center;
   margin: 2em 0 0 0;
 }
-.contact-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.portfolio-container {
+.flex-center {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 .portfolio-item {
   max-width: 600px;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
+  margin-top: .8em;
 }
 .portfolio-description {
+  margin-top: 10px;
+}
+.portfolio-container {
+  margin: .8em 0;
 }
 .tech-icon {
   display: inline-block;
@@ -180,6 +174,9 @@ a:hover {
 }
 .contact-button-container button {
   margin: 5px;
+}
+.contact-container {
+  margin-bottom: 3em;
 }
 .cta-btn {
   margin-left: 10px;
